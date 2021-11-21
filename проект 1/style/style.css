@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+h1{
+	color: #000080;
+}
+body{
+	font-size: 40px;
+	font-family: 'Source Code Pro', monospace;
+	 background: #808080;
+}
+p{
+	
+}
+img{
+	width:800px;
+	height: 500px;
+}
+a{
+	font-size: 50px;
+}
+div{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.3) 
+  } 
+   h1{
+   	text-align: center;
+   }     
