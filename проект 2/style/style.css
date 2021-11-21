@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+
+@font-face{
+	font-family: Montserat;
+	src:url(../fonts/Montserrat.ttf);
+}
+
+
+
+
+
+body{
+	background: white;
+	font-family: Montserat;
+}
+
+main{
+	width: 70%;
+    margin: auto;
+    padding: 20px 50px;
+    background: #fff;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.pfoto{
+	width: calc(50% - 20px);
+	height: calc((35vw - 20px) / 16 * 9);
+	background: grey;
+	margin: 10px;
+	background-position: center;
+	background-size: cover;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.3);
+}
+
+.pfoto:hover{
+	transform: scale(1.09) rotate(3deg);
+	transition: all 0.4s ease-in-out;
+	box-shadow: 0 0 50px 1px rgba(0,0,0, 0.7);
+    
+}
+
+
+
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	padding: 20px;
+}
+
+.pfoto1{
+	background-image: url(../image/img1.jpg);
+
+}
+
+.pfoto1:hover{
+	transform: scale(1.09) rotate(360deg);
+	transition: all 0.5s ease-in-out;
+
+}
+.pfoto2{
+	background-image: url(../image/img2.jpg);
+}
+
+.pfoto2:hover{
+	transform: scale(1.09) rotate(-360deg);
+	transition: all 0.5s ease-in-out;
+
+}
+
+
+.pfoto3{
+	background-image: url(../image/img3.jpeg);
+}
+.pfoto3:hover{
+     transform: translate(-20px, 20px);
+}
+
+
+.pfoto4{
+	background-image: url(../image/img4.jpg);
+}
+.pfoto4:hover{
+     transform: translate(20px, -20px);
+}
+
+
+.pfoto5{
+	background-image: url(../image/img5.png);
+}
+.pfoto5:hover{
+	transform: skew(-15deg, 15deg);
+}
+
+
+
+.pfoto6{
+	background-image: url(../image/img6.jpg);
+}
+.pfoto6:hover{
+	transform: skew(15deg, -15deg);
+}
+
+
+.pfoto7{
+	background-image: url(../image/img7.jpg);
+}
+.pfoto8{
+	background-image: url(../image/img8.jpg);
+}
+.pfoto9{
+	background-image: url(../image/img9.jpg);
+}
+.pfoto10{
+	background-image: url(../image/img10.jpg);
+}
+.pfoto11{
+	background-image: url(../image/img11.jpg);
+}
+.pfoto12{
+	background-image: url(../image/img12.jpg);
+}
+
